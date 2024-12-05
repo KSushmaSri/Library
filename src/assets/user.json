@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "title":"Fruits",
+        "src":"https://tse4.mm.bing.net/th?id=OIP.FxRpUZ1X5jvwyxjDJXeX4wHaGL&pid=Api&P=0&h=180",
+        "alt":"juicy Fruits",
+        "price":500,
+        "description":"ABCDEFGHIJKLM",
+        "subdescription":"abcdefghi",
+        "button":"Explore"
+    },
+    {
+        "id":2,
+        "title":"Fruits",
+        "src":"https://tse4.mm.bing.net/th?id=OIP.FxRpUZ1X5jvwyxjDJXeX4wHaGL&pid=Api&P=0&h=180",
+        "alt":"juicy Fruits",
+        "price":500,
+        "description":"ABCDEFGHIJKLM",
+        "subdescription":"abcdefghi",
+        "button":"Explore"
+    },
+    {
+        "id":3,
+        "title":"Fruits",
+        "src":"https://tse4.mm.bing.net/th?id=OIP.FxRpUZ1X5jvwyxjDJXeX4wHaGL&pid=Api&P=0&h=180",
+        "alt":"juicy Fruits",
+        "price":500,
+        "description":"ABCDEFGHIJKLM",
+        "subdescription":"abcdefghi",
+        "button":"Explore"
+    }
+]

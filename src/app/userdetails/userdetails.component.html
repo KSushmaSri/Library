@@ -1,0 +1,8 @@
+<div class="card-container">
+    <div *ngIf="user">
+        <img [src]="user.src" [alt]="user.alt">
+        <h1>{{user.title}}</h1>
+        <p>{{user.price}}</p>
+        <button class="btn btn-primary">{{user.button}}</button>
+    </div>
+</div>
