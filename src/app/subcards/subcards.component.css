@@ -1,0 +1,20 @@
+.row{
+    margin:5% 10%;
+}
+.card{
+    margin: 0 5px;
+    border: none;
+    box-shadow: 0.5px 0.5px 10px #7b7b7b ;
+    text-align: center;
+}
+.click{
+    background-color: rgb(117, 147, 238) !important;
+    color: #fff;
+    max-width: 50%;
+    margin:0 0 5% 25%;
+    text-transform: uppercase;
+}
+h1{
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

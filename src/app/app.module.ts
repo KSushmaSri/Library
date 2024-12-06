@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SubcardsComponent } from './subcards/subcards.component';
 import { FaqComponent } from './faq/faq.component';
 import { SliderComponent } from './slider/slider.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SliderComponent } from './slider/slider.component';
     FooterComponent,
     SubcardsComponent,
     FaqComponent,
-    SliderComponent
+    SliderComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,
