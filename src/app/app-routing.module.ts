@@ -4,6 +4,9 @@ import { UserdetailsComponent } from './userdetails/userdetails.component';
 import { UserComponent } from './user/user.component';
 import { WelcomepageComponent } from './welcomepage/welcomepage.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { FictionalComponent } from './fictional/fictional.component';
+import { NonfictionalComponent } from './nonfictional/nonfictional.component';
 
 const routes: Routes = [
   {
@@ -14,6 +17,15 @@ const routes: Routes = [
   },
   {
     path:'user/:id',component:UserdetailsComponent
+  },
+  {
+    path:'fictional',component:FictionalComponent
+  },
+  {
+    path:'nonfictional',component:NonfictionalComponent
+  },
+  {
+    path:'**',component:PagenotfoundComponent
   }
 ];
 
