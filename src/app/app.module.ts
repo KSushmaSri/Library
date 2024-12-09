@@ -14,6 +14,10 @@ import { SubcardsComponent } from './subcards/subcards.component';
 import { FaqComponent } from './faq/faq.component';
 import { SliderComponent } from './slider/slider.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { FictionalComponent } from './fictional/fictional.component';
+import { NonfictionalComponent } from './nonfictional/nonfictional.component';
+import { SubfictionalComponent } from './subfictional/subfictional.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,11 @@ import { ContactusComponent } from './contactus/contactus.component';
     SubcardsComponent,
     FaqComponent,
     SliderComponent,
-    ContactusComponent
+    ContactusComponent,
+    PagenotfoundComponent,
+    FictionalComponent,
+    NonfictionalComponent,
+    SubfictionalComponent
   ],
   imports: [
     BrowserModule,
