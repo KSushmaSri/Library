@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-subcards',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./subcards.component.css']
 })
 export class SubcardsComponent {
-
+  constructor(private router:Router){}
+  onclick(){
+    this.router.navigate(['/fictional'])
+  }
+  onclick1(){
+    this.router.navigate(['/nonfictional'])
+  }
 }
