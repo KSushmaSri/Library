@@ -8,12 +8,4 @@ import { User } from '../models/user';
   styleUrls: ['./fictional.component.css']
 })
 export class FictionalComponent {
-  details:User[]=[];
-  constructor(private service:UserService){}
-  ngOnInit():void{
-    this.click();
-  }
-  click(){
-    this.service.getdetails().subscribe(data=>this.details=data)
-  }
 }
