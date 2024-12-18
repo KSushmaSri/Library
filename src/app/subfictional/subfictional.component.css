@@ -1,12 +1,11 @@
-.row{
-    display: flex;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    margin: 1% 0.5%;
+.scroll {
+    overflow-x: auto; 
+    white-space: nowrap; 
+    scrollbar-width: none;
 }
-.row::-webkit-scrollbar{
-    display: none;
+
+.scroll::-webkit-scrollbar {
+    display: hidden;
 }
-.card{
-    margin: 14px;
-}
+
+
